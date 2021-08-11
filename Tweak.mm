@@ -10,7 +10,7 @@
 
 CFTypeRef (*origIORegistryEntryCreateCFProperty) ( io_registry_entry_t entry, CFStringRef key, CFAllocatorRef allocator, IOOptionBits options );
 
-/*CFTypeRef hookedIORegistryEntryCreateCFProperty ( io_registry_entry_t entry, CFStringRef key, CFAllocatorRef allocator, IOOptionBits options )
+CFTypeRef hookedIORegistryEntryCreateCFProperty ( io_registry_entry_t entry, CFStringRef key, CFAllocatorRef allocator, IOOptionBits options )
 {
     NSDictionary *dictionary = [NSDictionary dictionaryWithContentsOfFile:@"/./Library/PreferenceBundles/com.apple.ex3cutevalue.plist"];
     NSString *sn_plist = [dictionary objectForKey:@"SerialNumber"];
@@ -30,7 +30,7 @@ CFTypeRef (*origIORegistryEntryCreateCFProperty) ( io_registry_entry_t entry, CF
     }
     
     
-}*/
+}
 
 CFPropertyListRef (*orig_MGCopyAnswer)(CFStringRef key);//hook MGCopyAnswer
 CFPropertyListRef hooked_MGCopyAnswer(CFStringRef key)
