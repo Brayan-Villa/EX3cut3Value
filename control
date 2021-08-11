@@ -1,0 +1,9 @@
+Package: com.apple.ex3cutevalue
+Name: EX3cutioN3R_Spoof
+Depends: mobilesubstrate
+Version: 1.0.0
+Architecture: iphoneos-arm
+Description: These functions can spoof some values easily
+Maintainer: EX3cutioN3R
+Author: failbr34k
+Section: Tweaks

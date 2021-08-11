@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+    <dict>
+        <key>com.apple.private.lockdown.finegrained-get</key>
+        <array>
+            <string>NULL/DevicePublicKey</string>
+            <string>NULL/ActivationInfo</string>
+            <string>NULL/ActivationPrivateKey</string>
+            <string>com.apple.fairplay/FairPlayKeyData</string>
+            <string>NULL/FairPlayContextID</string>
+            <string>NULL/BrickState</string>
+        </array>
+        <key>fairplay-client</key>
+        <integer>453076874</integer>
+        <key>com.apple.fairplay</key>
+        <true/>
+    </dict>
+</plist>
